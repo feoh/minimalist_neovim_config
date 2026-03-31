@@ -1,5 +1,5 @@
 -- theme
-vim.pack.add({ src = "https://github.com/catppuccin/nvim", name = "catppuccin" })
+vim.pack.add({"https://github.com/catppuccin/nvim"})
 -- lualine
 vim.pack.add({'https://github.com/nvim-tree/nvim-web-devicons'})
 vim.pack.add({'https://github.com/nvim-lualine/lualine.nvim'})
