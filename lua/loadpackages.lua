@@ -13,7 +13,6 @@ vim.pack.add({'https://github.com/stevearc/oil.nvim.git'})
 vim.pack.add({"https://github.com/nvim-lua/plenary.nvim"})
 vim.pack.add({"https://github.com/pmizio/typescript-tools.nvim"})
 
-vim.pack.add({"https://github.com/jiaoshijie/undotree.git"})
 
 -- Done specifying packages. Update them all!
 vim.pack.update(nil, {force=true})
