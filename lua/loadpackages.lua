@@ -6,7 +6,7 @@ vim.pack.add({'https://github.com/nvim-lualine/lualine.nvim'})
 
 vim.pack.add({'https://github.com/neovim/nvim-lspconfig'})
 vim.pack.add({'https://github.com/folke/which-key.nvim.git'})
-vim.pack.add({{src='https://github.com/Saghen/blink.cmp.git', version="v1.10.1"}})
+vim.pack.add({{src='https://github.com/Saghen/blink.cmp.git'}})
 vim.pack.add({'https://github.com/stevearc/oil.nvim.git'})
 
 -- Typescript
