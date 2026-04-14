@@ -4,3 +4,9 @@
 vim.o.textwidth=120
 vim.o.wrap=true
 
+vim.keymap.set(
+  "n",
+  "<leader>mp",
+  "<Plug>MarkdownPreviewToggle",
+  { buffer = true, desc = "Toggle markdown preview" }
+)
