@@ -4,7 +4,6 @@ vim.lsp.enable({'lua_ls',
                 'basedpyright',
                 'rust_analyzer',
                 'ruff',
-                'ty',
                 'yamlls',
               })
 
