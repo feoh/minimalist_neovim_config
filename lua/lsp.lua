@@ -6,7 +6,6 @@ vim.lsp.enable({'lua_ls',
                 'ruff',
                 'ty',
                 'yamlls',
-		'lua_ls',
               })
 
 -- Lazydev lets lua_ls find Neovim's runtime so 
