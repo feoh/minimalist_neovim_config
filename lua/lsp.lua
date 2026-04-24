@@ -1,10 +1,10 @@
 -- Enable the LSPs!
 vim.lsp.enable({'lua_ls',
                 'clangd',
-                -- 'basedpyright',
+                'basedpyright',
                 'rust_analyzer',
                 'ruff',
-                'ty',
+                -- 'ty',
                 'yamlls',
               })
 
