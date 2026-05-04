@@ -39,4 +39,5 @@ vim.pack.add({"https://github.com/pmizio/typescript-tools.nvim"})
 
 
 -- Done specifying packages. Update them all!
-vim.pack.update(nil, {force=true})
+-- This seems to cause issues. Disabling for now.
+-- vim.pack.update(nil, {force=true})
