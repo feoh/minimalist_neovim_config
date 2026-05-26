@@ -28,6 +28,11 @@ vim.pack.add({"https://github.com/iamcco/markdown-preview.nvim"}, {load=true})
 vim.pack.add({'https://github.com/nvim-tree/nvim-web-devicons'})
 vim.pack.add({'https://github.com/nvim-lualine/lualine.nvim'})
 
+-- git
+vim.pack.add({'https://github.com/tpope/vim-fugitive'})
+vim.pack.add({'https://github.com/tpope/vim-rhubarb'})
+vim.pack.add({'https://github.com/lewis6991/gitsigns.nvim'})
+
 vim.pack.add({'https://github.com/neovim/nvim-lspconfig'})
 vim.pack.add({'https://github.com/folke/which-key.nvim.git'})
 vim.pack.add({{src='https://github.com/Saghen/blink.cmp.git', version="v1.10.2"}})
