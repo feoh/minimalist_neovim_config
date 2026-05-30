@@ -8,6 +8,7 @@ vim.o.scrolloff = 10
 -- HELLS YES NEW PLEASE!
 require('vim._core.ui2').enable()
 
+require("ghost")
 require("loadpackages")
 require("proglangs")
 require("clipboard")

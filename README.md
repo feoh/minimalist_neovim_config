@@ -28,3 +28,14 @@ The statusline also shows the current Git branch and diff summary when applicabl
 - `<leader>hb` — blame current line
 - `<leader>hd` — diff current file
 - `<leader>hD` — diff current file against `~`
+
+## Browser editing
+
+This config also includes [subnut/nvim-ghost.nvim](https://github.com/subnut/nvim-ghost.nvim)
+for editing browser textareas via GhostText.
+
+Configured behavior:
+
+- uses the default GhostText port `4001`
+- sets `filetype=markdown` for common markdown-heavy sites like GitHub, Reddit, and Stack Overflow
+- sets `filetype=mail` for `fastmail.com`
