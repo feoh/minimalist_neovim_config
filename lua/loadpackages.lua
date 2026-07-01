@@ -45,7 +45,11 @@ vim.pack.add({'https://github.com/stevearc/oil.nvim.git'})
 vim.pack.add({"https://github.com/nvim-lua/plenary.nvim"})
 vim.pack.add({"https://github.com/pmizio/typescript-tools.nvim"})
 
+-- Bardic neovim mode!
+vim.pack.add({
+  { src = "https://github.com/3rd/image.nvim" },
+  { src = "https://github.com/feoh/nvim-bardic" },
+})
 
--- Done specifying packages. Update them all!
--- This seems to cause issues. Disabling for now.
--- vim.pack.update(nil, {force=true})
+require("image").setup()
+require("bardic").setup()
