@@ -2,6 +2,7 @@ require("blink.compat").setup({})
 
 require("emoji").setup({
   enable_cmp_integration = true,
+  plugin_path = vim.fn.stdpath("data") .. "/site/pack/core/opt/",
 })
 
 require("blink.cmp").setup({
