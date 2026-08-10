@@ -39,6 +39,10 @@ vim.pack.add({'https://github.com/subnut/nvim-ghost.nvim'})
 vim.pack.add({'https://github.com/neovim/nvim-lspconfig'})
 vim.pack.add({'https://github.com/folke/which-key.nvim.git'})
 vim.pack.add({{src='https://github.com/Saghen/blink.cmp.git', version="v1.10.2"}})
+vim.pack.add({
+  { src = "https://github.com/Allaman/emoji.nvim", version = "v6.1.0" },
+  { src = "https://github.com/saghen/blink.compat", version = "v2.5.0" },
+})
 vim.pack.add({'https://github.com/stevearc/oil.nvim.git'})
 
 -- Typescript
